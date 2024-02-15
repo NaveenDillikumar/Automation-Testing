@@ -18,7 +18,7 @@ public class SwitchToTest {
 		driver.get("https://Google.com");
 		Thread.sleep(3000);
 		
-		driver.switchTo().activeElement().sendKeys("Lord Muruga",Keys.ENTER);
+		driver.switchTo().activeElement().sendKeys("Lord Muruga"+ "4",Keys.ENTER);
 		Thread.sleep(5000);
 		
 		//Close the Browser
