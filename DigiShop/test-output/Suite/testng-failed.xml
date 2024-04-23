@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Browsers" value="Chrome"/>
+    <parameter name="url" value="https://demowebshop.tricentis.com"/>
+    <classes>
+      <class name="Testscripts.JewelrySystemTest">
+        <methods>
+          <include name="Launchthebrowser"/>
+          <include name="jewelry_system_001"/>
+          <include name="Login"/>
+          <include name="at"/>
+          <include name="BrowserClosed"/>
+          <include name="bt"/>
+          <include name="as"/>
+          <include name="bs"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- Testscripts.JewelrySystemTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
